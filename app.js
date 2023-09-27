@@ -13,9 +13,4 @@ $(document).ready(function() {
         $(this).toggleClass("click")
     })
 
-
-    // $('input[type="text"]').on('click',function(e){
-
-        
-    // })
  });

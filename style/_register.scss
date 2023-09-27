@@ -107,7 +107,7 @@ div.container{
                 }
     
     
-                input[type="text"]{
+                input[type="text"],input[type="password"]{
                     width:250px;
                     height:22px;
                     border:1px solid #ccc;
@@ -122,10 +122,6 @@ div.container{
                     color:#d6d6d6;
                     position:absolute;
                     left:2%;
-                }
-    
-                i.envelope{
-                    top:11%;
                 }
     
                 i.lock{

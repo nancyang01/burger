@@ -950,7 +950,7 @@ div.container div.log-frame div.login-window a.hint {
   margin: 5px 0 20px 0;
 }
 
-div.container div.log-frame div.login-window input[type="text"] {
+div.container div.log-frame div.login-window input[type="text"], div.container div.log-frame div.login-window input[type="password"] {
   width: 250px;
   height: 22px;
   border: 1px solid #ccc;
@@ -963,15 +963,11 @@ div.container div.log-frame div.login-window i {
   left: 7%;
 }
 
-div.container div.log-frame div.login-window i.envelope {
-  top: 32%;
-}
-
 div.container div.log-frame div.login-window i.lock {
   top: 57%;
 }
 
-div.container div.log-frame div.login-window i.noshow {
+div.container div.log-frame div.login-window i.no-show {
   display: none;
 }
 
@@ -1113,7 +1109,7 @@ div.container div.register-window div.register div.input a.hint {
   margin-top: 10px;
 }
 
-div.container div.register-window div.register div.input input[type="text"] {
+div.container div.register-window div.register div.input input[type="text"], div.container div.register-window div.register div.input input[type="password"] {
   width: 250px;
   height: 22px;
   border: 1px solid #ccc;
@@ -1128,10 +1124,6 @@ div.container div.register-window div.register div.input i {
   color: #d6d6d6;
   position: absolute;
   left: 2%;
-}
-
-div.container div.register-window div.register div.input i.envelope {
-  top: 11%;
 }
 
 div.container div.register-window div.register div.input i.lock {
